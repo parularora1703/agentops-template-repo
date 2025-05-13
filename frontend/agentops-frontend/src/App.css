@@ -1,0 +1,69 @@
+/* App.css */
+.app-container {
+  color: white; /* Make all text white */
+  font-weight: bold; /* Make text a bit bold */
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif; /* Add font-family for consistency */
+  background-color: #222; /* Add a fallback background color */
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header .logo {
+  width: 150px; /* Adjust the size of the logo if needed */
+  margin-bottom: 20px; /* Ensure space between logo and other content */
+}
+
+.selectors {
+  margin-top: 20px;
+}
+
+.selectors .form-label,
+.selectors select {
+  color: white; /* Make form labels and select text white */
+}
+
+.form-select {
+  background-color: rgba(0, 0, 0, 0.6); /* Slight dark background to the select box */
+  border: none;
+  color: white;
+  padding: 10px; /* Add some padding for better UI */
+  border-radius: 5px; /* Slight rounding for the select box */
+}
+
+.slot-display {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem; /* Adjust the header size if necessary */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for a smooth look */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button:hover {
+  background-color: #e76f51;
+}
+
+/* Add some text shadow to improve readability */
+body, h1, p, label {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
